@@ -46,7 +46,7 @@
                 class="home-textinput1 input"
                 id="inputC2"
               />
-              <button type="button" class="button" onclick="trocarCores('inputC2', 'color2_text','color2_bg')">Change</button>
+              <button type="button" class="button" onclick="addNewColor2()">Change</button>
             </div>
             <div class="home-button12">
               <span class="textbutton textarea">
@@ -57,9 +57,9 @@
                 type="text"
                 placeholder="#A2D5AB"
                 class="home-textinput2 input"
-                id="colorC3"
+                id="inputC3"
               />
-              <button type="button" class="button" onclick="trocarCores('inputC3', 'color3_text','color3_bg')">Change</button>
+              <button type="button" class="button" onclick="addNewColor3()">Change</button>
             </div>
             <div class="home-button13">
               <span class="textbutton textarea">
@@ -72,7 +72,7 @@
                 class="home-textinput3 input"
                 id="inputC4"
               />
-              <button type="button" class="button" onclick="trocarCores('inputC4', 'color4_text','color4_bg')">Change</button>
+              <button type="button" class="button" onclick="addNewColor4()">Change</button>
             </div>
             <div class="home-button14">
               <span class="textbutton textarea">
@@ -81,11 +81,11 @@
               </span>
               <input
                 type="text"
-                placeholder="#5B5151"
+                placeholder="#734E46"
                 class="home-textinput4 input"
                 id="inputC5"
               />
-              <button type="button" class="button" onclick="trocarCores('inputC5', 'color5_text','color5_bg')">Change</button>
+              <button type="button" class="button" onclick="addNewColor5()">Change</button>
             </div>
           </div>
           <div class="home-test">
@@ -93,8 +93,12 @@
             <div class="color1_bg Tester">
               <span class="color2_text textarea">#C29D89</span>
               <span class="color3_text textarea">#444239</span>
-              <span class="color4_text textarea ">#6C5E49</span>
-              <span class="color5_text textarea">#5B5151</span>
+              <span class="color4_text textarea">#6C5E49</span>
+              <span class="color5_text textarea">#734E46</span>
+              <span class="shadow1 textarea" style="color: #85362B;">#85362B</span>
+              <span class="shadow1 textarea" style="color: #6C2C23;">#6C2C23</span>
+              <span class="shadow1 textarea" style="color: #3A1813">#3A1813</span>
+              <span class="shadow1 textarea" style="color: #210E0B;">#210E0B</span>
             </div>
           </div>
           <div class="home-test1">
@@ -102,41 +106,57 @@
             <div class="color2_bg Tester">
               <span class="color3_text textarea">#444239</span>
               <span class="color4_text textarea">#6C5E49</span>
-              <span class="color5_text textarea">#5B5151</span>
+              <span class="color5_text textarea">#734E46</span>
               <span class="textarea color1_text">#53221B</span>
+              <span class="shadow2 textarea" style="color: #FFFBDB;">#FFFBDB</span>
+              <span class="shadow2 textarea" style="color: #FCCCB2;">#FCCCB2</span>
+              <span class="shadow2 textarea" style="color: #886E60;">#886E60</span>
+              <span class="shadow2 textarea" style="color: #4E3F37;">#4E3F37</span>
             </div>
           </div>
           <div class="home-test2">
             <span class="color3_text textarea">#444239</span>
             <div class="color3_bg Tester">
               <span class="color4_text textarea">#6C5E49</span>
-              <span class="color5_text textarea">#5B5151</span>
+              <span class="color5_text textarea">#734E46</span>
               <span class="textarea color1_text">#53221B</span>
               <span class="color2_text textarea">#C29D89</span>
+              <span class="shadow3 textarea" style="color: #6D6A5B;">#6D6A5B</span>
+              <span class="shadow3 textarea" style="color: #58564A;">#58564A</span>
+              <span class="shadow3 textarea" style="color: #302E28;">#302E28</span>
+              <span class="shadow3 textarea" style="color: #1B1A17;">#1B1A17</span>
             </div>
           </div>
           <div class="home-test3">
             <span class="color4_text textarea ">#6C5E49</span>
             <div class="color4_bg Tester">
-              <span class="color5_text textarea">#5B5151</span>
+              <span class="color5_text textarea">#734E46</span>
               <span class="textarea color1_text">#53221B</span>
               <span class="color2_text textarea">#C29D89</span>
               <span class="color3_text textarea">#444239</span>
+              <span class="shadow4 textarea" style="color: #AD9675;">#AD9675</span>
+              <span class="shadow4 textarea" style="color: #8C7A5F;">#8C7A5F</span>
+              <span class="shadow4 textarea" style="color: #4C4233;">#4C4233</span>
+              <span class="shadow4 textarea" style="color: #2B261D;">#2B261D</span>
             </div>
           </div>
           <div class="home-test4">
-            <span class="color5_text textarea">#5B5151</span>
+            <span class="color5_text textarea">#734E46</span>
             <div class="color5_bg Tester">
               <span class="color1_text textarea">#53221B</span>
               <span class="color2_text textarea">#C29D89</span>
               <span class="color3_text textarea">#444239</span>
               <span class="color4_text textarea">#6C5E49</span>
+              <span class="shadow5 textarea" style="color: #B87D70">#B87D70</span>
+              <span class="shadow5 textarea" style="color: #96655B;">#96655B</span>
+              <span class="shadow5 textarea" style="color: #513731;">#513731</span>
+              <span class="shadow5 textarea" style="color: #2E1F1C">#2E1F1C</span>
             </div>
           </div>
           <div class="home-test5">
             <span class="home-text56 textarea ">#F2F2F2</span>
             <div class="Tester white_bg">
-              <span class="color5_text textarea">#5B5151</span>
+              <span class="color5_text textarea">#734E46</span>
               <span class="color4_text textarea">#6C5E49</span>
               <span class="color3_text textarea">#444239</span>
               <span class="color2_text textarea">#C29D89</span>
@@ -146,7 +166,7 @@
           <div class="home-test6">
             <span class="home-text64 textarea">#000000</span>
             <div class="black_bg Tester">
-              <span class="color5_text textarea">#5B5151</span>
+              <span class="color5_text textarea">#734E46</span>
               <span class="color4_text textarea">#6C5E49</span>
               <span class="color3_text textarea">#A2D5AB</span>
               <span class="color2_text textarea">#C29D89</span>
