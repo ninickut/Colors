@@ -35,7 +35,7 @@
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
-  color: 3d3d3d;
+  color: #3d3d3d;
   margin: 5px;
   display: flex;
   padding: 6px 14px;
@@ -44,6 +44,7 @@
   font-family: sans-serif;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
+  align-self: center;
 }
 .input {
   color: var(--dl-color-gray-black);
